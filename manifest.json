@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Simple Extension",
+    "description": "Hello",
+    "version": "1.0",
+    "permissions": ["activeTab", "tabs", "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
